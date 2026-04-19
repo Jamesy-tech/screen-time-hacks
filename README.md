@@ -1,21 +1,34 @@
 # Keylogger Setup
-—-----------------------<br>
+
+---
+
 ## Installation
-$ git clone https://github.com/GiacomoLaw/Keylogger && cd keylogger/mac
-$ make && make install
-—-----------------------<br>
+git clone https://github.com/GiacomoLaw/Keylogger && cd keylogger/mac
+make && make install
+
+---
+
 ## Create File
-$ touch ~/logfile.txt
-—-----------------------<br>
+touch ~/logfile.txt
+
+---
+
 ## Start Logging
-$ keylogger ~/logfile.txt
-—-----------------------<br>
+keylogger ~/logfile.txt
+
+---
+
 ## File Location
 /Users/yourname/logfile.txt
-—-----------------------<br>
+
+---
+
 ## Start on Startup
-$ sudo make startup
-—-----------------------<br>
+sudo make startup
+
+---
+
 ## Uninstall
-$ sudo make uninstall
-—-----------------------<br>
+sudo make uninstall
+
+---
